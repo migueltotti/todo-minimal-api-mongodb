@@ -1,0 +1,6 @@
+﻿services:
+  to-do-minimal-api-mongodb:
+    image: to-do-minimal-api-mongodb
+    build:
+      context: .
+      dockerfile: to-do-minimal-api-mongodb/Dockerfile
